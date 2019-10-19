@@ -1,0 +1,15 @@
+#ifdef _MSC_VER
+#define _CRT_SECURE_NO_WARNINGS
+#endif
+
+
+#include <stdio.h>
+#include <string.h>
+
+#define TAM_NOME 10
+#define TAM_AGENDA 30
+
+typedef struct clientes {
+	char nome[TAM_NOME];
+	int telefone;	
+} clientes_t;
